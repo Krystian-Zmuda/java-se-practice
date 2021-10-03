@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class PaintJob {
     public static void main(String[] args) {
-        System.out.println(getBucketCount(3.26,0.75));
+        System.out.println(getBucketCount(3.45,2.60,2,1));
     }
 
     public static int getBucketCount(double width, double height, double areaPerBucket, int extraBuckets) {
